@@ -1,0 +1,86 @@
+*{
+    transition: 3.5s all !important;
+}
+
+html{
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2.0s;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+      /* width */
+      ::-webkit-scrollbar {
+    width: 14px !important;
+    /* border-radius: 34px !important; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000 !important;
+    border-right: thin solid #fff !important;
+    border-left: thin solid #fff !important;
+    content: icon !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #28a745 !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    width: 20px !important;
+    border: thin solid #fff !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    border: none !important;
+    /* box-shadow: -3px 0px 5px 5px !important; */
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar-button{
+  color: #fff !important;
+  width: 100% !important;
+  background: #28a745 !important;
+  border: thin solid #fff !important;
+  height: 12px !important;
+}
+
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.navbar-toggler{
+  outline-color: #28a745 !important;
+}
+
+  .nav-link{
+    color: #000 !important;
+  }
+  .nav-link:hover{
+    color: #a09999 !important;
+  }
+
+  .agent{
+    box-shadow:0 .2rem 1rem rgba(0,0,0,.15)!important
+  }
+
+  footer{
+      bottom: 0 !important;
+  }
