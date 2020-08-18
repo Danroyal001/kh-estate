@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+#page-bg{
+    background: url(../images/page-title.jpg) no-repeat;
+    height: 35vh;
+    background-position: center;
+    background-color: #3a272700;
+    position: relative;
+}
+
+.page-background:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,.6);
+}
+ .container .prop{
+    color: white;
+}
+.prop h3{
+    font-size: 5rem;
+    padding-top: 60px;
+}
+.prop p{
+    padding-top: 80px;
+    padding-right: 90px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.back{
+    background: url(../images/in.png);
+    height: 9vh;
+    width: 26vh;
+    margin-top: 100px;
+}
+.kill{
+    background: url(../images/partner-3-3.png);
+    height: 12vh;
+    width: 26vh;
+    margin-top: 100px; 
+    
+}
+.breath{
+    background: url(../images/partner-1-2.png);
+    height: 11vh;
+    width: 26vh;
+    margin-top: 100px;
+}
+.sky{
+    background: url(../images/partner-4-2.png);
+    height: 11vh;
+    width: 25.4vh;
+    margin-top: 100px;
+}
