@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+#page-bg{
+    background: url(../images/page-title.jpg) no-repeat;
+    height: 35vh;
+    background-position: center;
+    background-color: #3a272700;
+    position: relative;
+}
+
+.page-background:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,.6);
+}
+ .container .prop{
+    color: white;
+}
+.prop h3{
+    font-size: 5rem;
+    padding-top: 60px;
+}
+.prop p{
+    padding-top: 80px;
+    padding-right: 90px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.search{
+    background-color: black;
+    padding-top: 20px;
+}
+
+.search{
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-primary{
+    border-radius: 20px;
+    border-color:#007bff;
+    width: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buz{
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: green;
+    padding: 10px;
+    color: white;
+    width: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-control{
+    border-radius: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-group{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-success.four{
+    width: 350px;
+}
+.all{
+    background-color: green;
+}
+.nav-pills{
+    background-color: #4c4949;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+.flex h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+}
+.images{
+    background: url(../images/properties-1-340x340.jpg);
+    height: 45vh;
+}
+
+.btn-success.one{
+    background-color: green;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    font-size: 9px;
+}
+.years{
+    color: white;
+    margin-top: 200px;
+}
+.apart{
+    font-size: 13px;
+}
+.single{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+.orlando{
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.four h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+.four p{
+    font-size: 12px;
+}
+.nav-links{
+    display:inline-block;
+    margin-right:100px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-slide{
+    display:inline-block;
+    margin-right:70px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.time{
+    font-size: 18px;
+    background-color:#4c4949 ;
+}
+.lethal{
+    background-color: whitesmoke;
+}
+.heart{
+    background: url(../images/properties.jpg);
+    height: 45vh;
+    
+}
+.gas{
+    background: url(../images/properties-4.jpg);
+    height: 46vh;
+}
+.tired{
+    background: url(../images/luxury.jpg);
+    height: 35vh;
+}
+.hate{
+    background: url(../images/house_with_swimming_pool-wallpaper-320x240.jpg);
+    height: 35vh;
+}
+.sad{
+    background: url(../images/architectural_concept_21-wallpaper-400x240\ \(1\).jpg);
+    height: 35vh;
+}
+.bad{
+    background: url(../images/square-wallpaper-400x240\ \(1\).jpg);
+    height: 35vh;
+}
+.trip{
+    background: url(../images/lighthouse_in_the_night-wallpaper-400x240.jpg);
+    height: 34vh;
+}
+.run{
+    background: url(../images/architectural_concept_9-wallpaper-400x240.jpg);
+    height: 35vh;
+}
