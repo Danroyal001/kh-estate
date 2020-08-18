@@ -67,29 +67,46 @@
 
    <div class="container-lg pt-5 pb-5">
      <div class="d-flex flex-row align-items-center justify-content-center">
-       <form class="bordered border-success rounded shadow col-12 col-md-6 col-lg-6">
-         <div class="row w-100">
-
-           <div class="col-12 col-sm-6">
-             <div class="form-group">
-               <input class="form-control" type="text" name="name" autocomplete="name" placeholder="Name (Required)" required>
+       <form class="border border-success rounded shadow-lg col-12 col-md-6 col-lg-6">
+          <br/>
+           <div>
+            <div class="text-center">
+              <span class="h3 pb-2 border border-success border-top-0 border-left-0 border-right-0">CONTACT US</span>
              </div>
-             <div class="form-group">
-              <input class="form-control" type="email" name="email" placeholder="Email (Required)" autocomplete="email" required>
+           <br/>
+           <div class="row w-100" style="margin: 0; padding: 0;">
+             <div class="col-12 col-sm-6">
+               <div class="form-group w-100">
+                 <input class="form-control w-100" type="text" name="name" autocomplete="name" placeholder="Name (Required)" required>
+               </div>
+               <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="Email (Required)" autocomplete="email" required>
+              </div>
+             </div>
+             <div class="col-12 col-sm-6">
+              <div class="form-group w-100">
+                <input class="form-control w-100" placeholder="Company (optional)" type="text" name="company" autocomplete="company" required>
+              </div>
+              <div class="form-group">
+               <input class="form-control" type="tel" autocomplete="tel" placeholder=
+               "Phone Number" name="number" required>
+             </div>
             </div>
            </div>
-
-           <div class="col-12 col-sm-6">
-            <div class="form-group">
-              <input class="form-control" placeholder="Company (optional)" type="text" name="company" autocomplete="company" required>
-            </div>
-            <div class="form-group">
-             <input class="form-control" type="tel" autocomplete="tel" placeholder=
-             "Phone Number" name="number" required>
+           <div class="w-100">
+             <div class="px-3">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject (Reason for contacting us)" required>
+              </div>
+              <div class="form-group">
+                <textarea style="height: 150px !important; max-height: 150px !important;" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="mt-1 mb-2">
+                <button class="btn btn-success btn-block" type="submit">SEND</button>
+              </div>
+             </div>
            </div>
-          </div>
-
-         </div>
+           </div>
        </form>
      </div>
    </div>
@@ -151,7 +168,7 @@
 
     </div>
 
-    <hr class="bordered border-light"/>
+    <hr class="border border-light"/>
 
     <div class="text-light d-flex flex-column flex-lg-row align-items-center justify-content-between">
       <span class="h4 font-weight-bold"> <i class="text-success fa fa-envelope-open"></i> OUR NEWSLETTER</span>
