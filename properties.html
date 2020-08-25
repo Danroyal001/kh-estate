@@ -72,168 +72,129 @@
       <div class="container-lg pt-5 pb-4">
 
   <section>
-      <div class="container lethal">
+      <div class="lethal">
           <h2>PROPERTIES</h2>
-          <ul class="nav nav-pills">
-              <li div class="all text-white">ALL</li>
-              <li div class="text-white">FOR RENT</li>
-              <li div class="text-white">FOR SALE</li>
-            </ul>
+
+          <!-- row partition -->
           <div class="row">
-          <div class="col-md-4">
-              <div class="images">
-                  <p><button class="btn btn-success one">FEATURED</button></p>
-                  <p><div class="years text-white">4 yearsago</div></p>
+            <style>
+              .w-100.shadow-lg.border.border-success.mb-5.pl-0.pr-0.pb-0{
+                cursor: pointer !important;
+              }
+            </style>
+            
+            <div class="col-md-4">
+              <div onClick="window.location = 'property1.html'" class="w-100 shadow-lg border border-success mb-5 pl-0 pr-0 pb-0">
+                <div class="images"  style="background-image: url(./images/property1.jpg); background-size: 100% 100%;">
+                    <p><button class="btn btn-success one">FEATURED</button></p>
+                    <p><div class="years text-white">4 years ago</div></p>
+                </div>
+                <h4 class="pl-3 single text-dark">Apartment 1</h4>
+                <ul class="pl-3">
+                    <li class="nav-links text-dark">325 Sqf</li>
+                    <li class="nav-links text-dark">3 Bedrooms</li>
+
+                    <li class="nav-slide text-dark">2 Bathrooms</li>
+                    <li class="nav-slide two text-dark">1 Garage</li>
+                </ul>
+                <h5 class="time text-white pb-0 mb-0">FOR SALE     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
               </div>
-              <h6 class=" apart text-success">APARTMENT, CAFE, HOUSE</h6>
-              <h4 class=" single text-dark">Single House Near Orlando Park, C...</h4>
-              <p class="orlando text-dark">Orlando Park, IL,60456, chicagoIL, United States</p>
-              <ul>
-                  <li class="nav-links text-dark">325 Sqf</li>
-                  <li class="nav-links text-dark">3 Bedrooms</li>
-                  <li class="nav-slide text-dark">2 Bathrooms</li>
-                  <li class="nav-slide two text-dark">1 Garage</li>
-              </ul>
-              <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
+            </div>
+
+            <div class="col-md-4">
+              <div class="w-100 shadow-lg border border-success mb-5 pl-0 pr-0 pb-0">
+                <div class="images"  style="background-image: url(./images/property2.jpg); background-size: 100% 100%;">
+                    <p><button class="btn btn-success one">FEATURED</button></p>
+                    <p><div class="years text-white">4 years ago</div></p>
+                </div>
+                <h4 class="pl-3 single text-dark">Apartment 2</h4>
+                <ul class="pl-3">
+                    <li class="nav-links text-dark">325 Sqf</li>
+                    <li class="nav-links text-dark">3 Bedrooms</li>
+                    <li class="nav-slide text-dark">2 Bathrooms</li>
+                    <li class="nav-slide two text-dark">1 Garage</li>
+                </ul>
+                <h5 class="time text-white pb-0 mb-0">FOR SALE     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
               </div>
-              <div class="col-md-4">
-                  <div class="heart">
-                      <p><button class="btn btn-success one">FEATURED</button></p>
-                      <p><div class="years text-white">4 yearsago</div></p>
-                  </div>
-                  <h6 class=" apart text-success">APARTMENT, BAR, CAFE</h6>
-                  <h4 class=" single text-dark">Apartment Modern 6035 W North</h4>
-                  <p class="orlando text-dark">6035 W North, chicagoIL, United States</p>
-                  <ul>
-                      <li class="nav-links text-dark">185 Sqf</li>
-                      <li class="nav-links text-dark">4 Bedrooms</li>
-                      <li class="nav-slide text-dark">3 Bathrooms</li>
-                      <li class="nav-slide two text-dark">1 Garage</li>
-                  </ul>
-                  <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$2.5K/MONTH</span></h5>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="gas">
-                          <p><button class="btn btn-success one">FEATURED</button></p>
-                          <p><div class="years text-white">4 yearsago</div></p>
-                      </div>
-                      <h6 class=" apart text-success">RESTAURANT, SPA, STORE</h6>
-                      <h4 class=" single text-dark">155 Mercer St,New York</h4>
-                      <p class="orlando text-dark">155 Mercer St,New York,NY 10012,USA</p>
-                      <ul>
-                          <li class="nav-links text-dark">500 Sqf</li>
-                          <li class="nav-links text-dark">5 Bedrooms</li>
-                          <li class="nav-slide text-dark">3 Bathrooms</li>
-                          <li class="nav-slide two text-dark">1 Garage</li>
-                      </ul>
-                      <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$5,000/MONTH</span></h5>
-                      </div>
-                      </div>
-                      <div class="row">
-                          <div class="col-md-4 py-3">
-                              <div class="tired ">
-                                  <p><button class="btn btn-success one">FEATURED</button></p>
-                                  <p><div class="years text-white">4 yearsago</div></p>
-                              </div>
-                              <h6 class=" apart text-success">FARM, RESTAURANT, SPA</h6>
-                              <h4 class=" single text-dark">Restaurant 160 E 65th St</h4>
-                              <p class="orlando text-dark">160 E 65th St, Newyork, NY 10065,USA</p>
-                              <ul>
-                                  <li class="nav-links text-dark">200 Sqf</li>
-                                  <li class="nav-links text-dark">4 Bedrooms</li>
-                                  <li class="nav-slide text-dark">3 Bathrooms</li>
-                                  <li class="nav-slide two text-dark">1 Garage</li>
-                              </ul>
-                              <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$1.2M/MONTH</span></h5>
-                              </div>
-                              <div class="col-md-4 py-3">
-                                  <div class="hate">
-                                      <p><button class="btn btn-success one">FEATURED</button></p>
-                                      <p><div class="years text-white">4 yearsago</div></p>
-                                  </div>
-                                  <h6 class=" apart text-success">BAR, CAFE, VILLA</h6>
-                                  <h4 class=" single text-dark">Villa 243 W 98th St</h4>
-                                  <p class="orlando text-dark">Villa, 243 W 98th St, Newyork, NY 10025,USA</p>
-                                  <ul>
-                                      <li class="nav-links text-dark">230 Sqf</li>
-                                      <li class="nav-links text-dark">4 Bedrooms</li>
-                                      <li class="nav-slide text-dark">4 Bathrooms</li>
-                                      <li class="nav-slide two text-dark">1 Garage</li>
-                                  </ul>
-                                  <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$480,000/MONTH</span></h5>
-                                  </div>
-                                  <div class="col-md-4">
-                                      <div class="sad">
-                                          <p><button class="btn btn-success one">FEATURED</button></p>
-                                          <p><div class="years text-white">4 yearsago</div></p>
-                                      </div>
-                                      <h6 class=" apart text-success">APARTMENT, FARM, STORE</h6>
-                                      <h4 class=" single text-dark">Apartment 54 Morningside Dr Apt 52</h4>
-                                      <p class="orlando text-dark">Apartment 54 Morningside Dr, Newyork, NY 10025,USA</p>
-                                      <ul>
-                                          <li class="nav-links text-dark">500 Sqf</li>
-                                          <li class="nav-links text-dark">2 Bedrooms</li>
-                                          <li class="nav-slide text-dark">2 Bathrooms</li>
-                                          <li class="nav-slide two text-dark">1 Garage</li>
-                                      </ul>
-                                      <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$1067,000/MONTH</span></h5>
-                                      </div>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-md-4">
-                                          <div class="bad">
-                                              <p><button class="btn btn-success one">FEATURED</button></p>
-                                              <p><div class="years text-white">4 yearsago</div></p>
-                                          </div>
-                                          <h6 class=" apart text-success">APARTMENT, FARM, VILLA</h6>
-                                          <h4 class=" single text-dark">Villa 40 Louise Ln,Chester </h4>
-                                          <p class="orlando text-dark">40 Louise Ln,Chester, Newyork, NY 10045,USA</p>
-                                          <ul>
-                                              <li class="nav-links text-dark">500 Sqf</li>
-                                              <li class="nav-links text-dark">6 Bedrooms</li>
-                                              <li class="nav-slide text-dark">4 Bathrooms</li>
-                                              <li class="nav-slide two text-dark">2 Garage</li>
-                                          </ul>
-                                          <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$5M/MONTH</span></h5>
-                                          </div>
-                                          <div class="col-md-4">
-                                              <div class="trip">
-                                                  <p><button class="btn btn-success one">FEATURED</button></p>
-                                                  <p><div class="years text-white">4 yearsago</div></p>
-                                              </div>
-                                              <h6 class=" apart text-success">HOUSE, RESTAURANT, SPA</h6>
-                                              <h4 class=" single text-dark">281 Ocean Terrace,Staten Island</h4>
-                                              <p class="orlando text-dark">281 ocean Terrace,Staten Island, NY 10301,USA</p>
-                                              <ul>
-                                                  <li class="nav-links text-dark">300 Sqf</li>
-                                                  <li class="nav-links text-dark">5 Bedrooms</li>
-                                                  <li class="nav-slide text-dark">4 Bathrooms</li>
-                                                  <li class="nav-slide two text-dark">2 Garage</li>
-                                              </ul>
-                                              <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$300K/YEAR</span></h5>
-                                              </div>
-                                              <div class="col-md-4">
-                                                  <div class="run">
-                                                      <p><button class="btn btn-success one">FEATURED</button></p>
-                                                      <p><div class="years text-white">4 yearsago</div></p>
-                                                  </div>
-                                                  <h6 class=" apart text-success">FARM, HOUSE, VILLA</h6>
-                                                  <h4 class=" single text-dark">Villa in 629 East 83rd Street</h4>
-                                                  <p class="orlando text-dark">villa in 629 East 83rd Street, NY 10402, USA </p>
-                                                  <ul>
-                                                      <li class="nav-links text-dark">400 Sqf</li>
-                                                      <li class="nav-links text-dark">4 Bedrooms</li>
-                                                      <li class="nav-slide text-dark">3 Bathrooms</li>
-                                                      <li class="nav-slide two text-dark">2 Garage</li>
-                                                  </ul>
-                                                  <h5 class="time text-white">FOR RENT     <span class="faded text-white mx-5">$1K/YEAR</span></h5>
-                                                  </div>
-                                              </div>
-                                          </div>
-      
-  
-          
-  
+            </div>
+
+            <div class="col-md-4">
+              <div class="w-100 shadow-lg border border-success mb-5 pl-0 pr-0 pb-0">
+                <div class="images"  style="background-image: url(./images/property3.jpg); background-size: 100% 100%;">
+                    <p><button class="btn btn-success one">FEATURED</button></p>
+                    <p><div class="years text-white">4 years ago</div></p>
+                </div>
+                <h4 class="pl-3 single text-dark">Apartment 3</h4>
+                <ul class="pl-3">
+                    <li class="nav-links text-dark">325 Sqf</li>
+                    <li class="nav-links text-dark">3 Bedrooms</li>
+                    <li class="nav-slide text-dark">2 Bathrooms</li>
+                    <li class="nav-slide two text-dark">1 Garage</li>
+                </ul>
+                <h5 class="time text-white pb-0 mb-0">FOR SALE     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
+              </div>
+            </div>
+
+          </div>
+          <!-- row partition -->
+
+          <div class="row">
+            
+            <div class="col-md-4">
+              <div class="w-100 shadow-lg border border-success mb-5 pl-0 pr-0 pb-0">
+                <div class="images"  style="background-image: url(./images/property4.jpg); background-size: 100% 100%;">
+                    <p><button class="btn btn-success one">FEATURED</button></p>
+                    <p><div class="years text-white">4 years ago</div></p>
+                </div>
+                <h4 class="pl-3 single text-dark">Apartment 4</h4>
+                <ul class="pl-3">
+                    <li class="nav-links text-dark">325 Sqf</li>
+                    <li class="nav-links text-dark">3 Bedrooms</li>
+                    <li class="nav-slide text-dark">2 Bathrooms</li>
+                    <li class="nav-slide two text-dark">1 Garage</li>
+                </ul>
+                <h5 class="time text-white pb-0 mb-0">FOR RENT     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="w-100 shadow-lg border border-success mb-5 pl-0 pr-0 pb-0">
+                <div class="images"  style="background-image: url(./images/property5.jpg); background-size: 100% 100%;">
+                    <p><button class="btn btn-success one">FEATURED</button></p>
+                    <p><div class="years text-white">4 years ago</div></p>
+                </div>
+                <h4 class="pl-3 single text-dark">Apartment 5</h4>
+                <ul class="pl-3">
+                    <li class="nav-links text-dark">325 Sqf</li>
+                    <li class="nav-links text-dark">3 Bedrooms</li>
+                    <li class="nav-slide text-dark">2 Bathrooms</li>
+                    <li class="nav-slide two text-dark">1 Garage</li>
+                </ul>
+                <h5 class="time text-white pb-0 mb-0">FOR RENT     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="w-100 shadow-lg border border-success mb-5 pl-0 pr-0 pb-0">
+                <div class="images"  style="background-image: url(./images/property6.jpg); background-size: 100% 100%;">
+                    <p><button class="btn btn-success one">FEATURED</button></p>
+                    <p><div class="years text-white">4 years ago</div></p>
+                </div>
+                <h4 class="pl-3 single text-dark">Apartment 6</h4>
+                <ul class="pl-3">
+                    <li class="nav-links text-dark">325 Sqf</li>
+                    <li class="nav-links text-dark">3 Bedrooms</li>
+                    <li class="nav-slide text-dark">2 Bathrooms</li>
+                    <li class="nav-slide two text-dark">1 Garage</li>
+                </ul>
+                <h5 class="time text-white pb-0 mb-0">FOR RENT     <span class="faded text-white mx-5">$136,030/MONTH</span></h5>
+              </div>
+            </div>
+
+          </div>
+          <!-- row partition -->
+
+      </div>
   </section>
       </div>
       
